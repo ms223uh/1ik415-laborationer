@@ -19,9 +19,36 @@
             </li>
         </ul>
         
+        <h3>Frågeformulär</h3>
         
-   
+        <form action="" method="post" action="mailto:example@example.com">
+        <fieldset>
         
+        <legend>Frågor</legend>
+            Ärendetyp: <select name="type">
+                <option value="Kontakt">Kontakt</option>
+                <option value="Support">Supoort</option>
+            </select>
+            <br>
+            Meddelande: <textarea rows="5" cols="30"></textarea>
+            
+        </fieldset>
+        
+        <fieldset>
+        
+        <legend>Information om dig</legend>
+            Namn: <input type="text" name="namn">
+            <br>
+            Kön: <input type="radio" name="sex" value="man">Man
+            <input type="radio" name="sex" value="kvinna">Kvinna
+            <br>
+            Ålder: <input type="radio" name="age" value="age">12-20 <input type="radio" name="age" value="age">21-30 <input type="radio" name="age" value="age">31-40 <input type="radio" name="age" value="age">40+
+            <br>
+            Mail: <input type="text" name="mail">
+        </fieldset>
+           
+           <button type="submit" value="Send Email">Skicka formulär!</button>
+          </form>
         
     </body>
 </html>
