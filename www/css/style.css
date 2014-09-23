@@ -1,0 +1,61 @@
+
+#wrapper
+{
+    width: 960px;
+    height: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid 1px #000000;
+    
+    
+}
+
+
+
+#head
+{
+    width: 958;
+    height: 155px;
+    background-color: #cc00ff;
+    
+    
+    
+}
+
+
+
+
+
+#meny 
+{
+    width: 200px;
+    background-color: #ff00cc;
+    float: left;
+    
+    
+    
+}
+
+
+
+#content
+{
+    background-color: #ccff00;
+    margin-left: 200px;
+    margin-top: 0px;
+    height: 995px;
+    overflow: auto;
+    
+}
+
+
+
+#footer
+{
+    background-color: #77d873;
+    width: auto;
+    height: 50px;
+    margin-bottom: 0px;
+}
+
+
