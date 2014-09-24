@@ -1,14 +1,15 @@
 
 #wrapper
 {
+    background-color: #ffffff;
     width: 960px;
-    height: 1200px;
+    height: 900px;
     margin-right: auto;
     margin-left: auto;
-    border: solid 1px #000000;
-    
-    
+    border: solid 2px #000000;
+    border-radius: 8px;
 }
+
 
 
 
@@ -16,46 +17,124 @@
 {
     width: 958;
     height: 155px;
-    background-color: #cc00ff;
-    
-    
-    
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border-bottom: solid 2px #000000;
 }
 
+
+#head2
+{
+    width: auto;
+    height: 25px;
+    background-color: #0095F4;
+    border-bottom: solid 2px #000000;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 0px;
+}
+
+
+#head3
+{
+    width: auto;
+    height: 25px;
+    background-color: #0095F4;
+    border-bottom: solid 2px #000000;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: -19px;
+}
+
+
+
+
+#content
+{
+    height: 695px;
+    background-color: #ffffff;
+    margin-left: 205px;
+    margin-top: 0px;
+    padding: 8px;
+    overflow: auto;
+    border-left: solid 2px #000000;
+}
 
 
 
 
 #meny 
 {
-    width: 200px;
-    background-color: #ff00cc;
+    width: 190px;
+    height: 150px;
+    background-color: #FFFFFF;
+    border: solid 2px #000000;
     float: left;
-    
-    
-    
+    margin-top: 7px;
+    margin-left: 6px;
+    border-radius: 8px;
 }
 
 
+#menyli a:link { text-decoration: none; color: #000000; font-family: verdana; font-size: 15px;}
+#menyli a:visited { text-decoration: none; color: #000000; font-family: verdana; font-size: 15px; }
+#menyli a:active { text-decoration: none; color: #000000; font-family: verdana; font-size: 15px; }
+#menyli li a:hover { text-decoration: none; color: #FFFFFF; font-family: verdana; font-size: 15px; background: #0095F4; }
+#menyli a:active {text-decoration: none; color: #FFFFFF; font-family: verdana; font-size: 15px; background: #FFA800 }
 
-#content
-{
-    background-color: #ccff00;
-    margin-left: 200px;
-    margin-top: 0px;
-    height: 995px;
-    overflow: auto;
-    
+
+#menyli li {
+list-style: none;
 }
+
 
 
 
 #footer
 {
-    background-color: #77d873;
+    background-color: #0095F4;
     width: auto;
-    height: 50px;
-    margin-bottom: 0px;
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border-top: solid 2px #000000;
+    text-align: center;
+    
 }
+
+
+#footer2
+{
+    width: auto;
+    height: 25px;
+    background-color: #0095F4;
+    border-top: solid 2px #000000;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: -12px;
+}
+
+
+#footer3
+{
+    width: auto;
+    height: 25px;
+    background-color: #0095F4;
+    border-top: solid 2px #000000;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: -3px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
