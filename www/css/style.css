@@ -16,6 +16,7 @@ body
     margin-left: auto;
     border: solid 2px #000000;
     border-radius: 8px;
+    
 }
 
 
@@ -29,7 +30,7 @@ body
     border-radius: 8px;
     border-bottom: solid 2px #000000;
     margin-top: 0px;
-    
+    background: url(pics/backgroundimage8.jpeg) no-repeat;
     
     
 }
@@ -233,10 +234,6 @@ table {
     
 }
 
-.textcenter
-{
-    text-align: center;
-}
 
 
 
