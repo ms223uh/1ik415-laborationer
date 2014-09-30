@@ -1,0 +1,41 @@
+@media print {
+
+
+body { 
+    background:white; color:black; 
+}
+
+
+#head, #head2, #head3, #meny, #footer, #footer2, #footer3 
+{
+    display: none; 
+}
+
+
+#wrapper, #content
+{
+   border: none;
+   overflow: visible;
+   margin: 0 auto;
+   
+}
+
+
+a:link:after, a:visited:after 
+{ 
+    content:" [" attr(href) "] "; 
+    
+}
+
+
+video
+{
+    display: none;
+}
+
+
+}
+
+
+
+
