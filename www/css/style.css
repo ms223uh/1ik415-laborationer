@@ -97,16 +97,18 @@ body
 #menyli li a:hover { text-decoration: none; color: #CCCCCC; font-family: verdana; font-size: 16px; background: #0095F4; }
  
 
-#menyli li {
+#menyli li 
+{
     list-style: none;
     margin: 8px;
 }
-#meny a{
+
+#meny a
+{
     background-image: url('pics/sprite.png');
     background-repeat:no-repeat; 
     padding-left: 28px;
     padding-bottom: 5px;
-    
 }
 
 
@@ -123,7 +125,6 @@ body
     vertical-align: middle;
     line-height: 0px;
     margin-top: 0px;
-    
 }
 
 
@@ -243,6 +244,7 @@ table {
 }
 
 
+/* Sprites */
 
 #meny li a.index 
 {
@@ -308,4 +310,45 @@ table {
 	width: 24px;
 	height: 24px;
     
+}
+
+
+/* Kontaktformulär */
+
+fieldset {
+  padding: 5px;
+  font-family: verdana;
+  font-size: 14px;
+  width: 450px;
+  border: solid 1px #000000;
+  }
+  
+label {
+  float: left;
+  width: 70px;
+  margin-right: 15px;
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 14px;
+  color: #000000;
+  text-align: right;
+  
+  }
+  
+  textarea
+  {
+      width: 300px;
+      height: 110px;
+      resize: none;
+      font-family: verdana;
+      font-size: 12px;
+      color: #000000;
+  }
+  
+  input:invalid {
+  background: #ffffff;
+}
+
+input:valid {
+  background: #ffffff;
 }

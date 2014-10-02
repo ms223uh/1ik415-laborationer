@@ -55,36 +55,43 @@
         
         <h2>Kontakt</h2>
         
+        <br>
         
-        
-        <h3>Frågeformulär</h3>
+        <h3>Kotaktformulär</h3>
         
         <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post" >
         <fieldset>
-        
+        <br>
         <legend>Frågor</legend>
-            Ärendetyp: <select name="Ärende">
+            <label for="Ärende">Ärendetyp: <select name="Ärende"></label>
                 <option value="Kontakt">Kontakt</option>
                 <option value="Support">Support</option>
             </select>
             <br>
-            Meddelande: <textarea rows="5" cols="30" name="Meddelande"></textarea>
+            <br>
+            <label for="Meddelande">Meddelande:</label> 
+            <br>
+            <textarea rows="5" cols="30" maxlength="250" name="Meddelande" required>Max 250 tecken.</textarea>
             
         </fieldset>
         
+        <br>
+        
         <fieldset>
         
+        
         <legend>Information om dig</legend>
-            Namn: <input type="text" name="Namn">
+        <br>
+            <label for="Namn">Namn:</label> <input type="text" name="Namn" required>
             <br>
-            Kön: <input type="radio" name="Kön" value="man">Man
-            <input type="radio" name="Kön" value="kvinna">Kvinna
+            <label for="Kön">Kön:</label> <input type="radio" name="Kön" value="man" >Man
+            <input type="radio" name="Kön" value="kvinna" required>Kvinna
             <br>
-            Ålder: <input type="radio" name="Ålder" value="12-20">12-20 <input type="radio" name="Ålder" value="21-30">21-30 <input type="radio" name="Ålder" value="31-40">31-40 <input type="radio" name="Ålder" value="40+">40+
+            <label for="Ålder">Ålder:</label> <input type="radio" name="Ålder" value="12-20" required>12-20 <input type="radio" name="Ålder" value="21-30"required>21-30 <input type="radio" name="Ålder" value="31-40" required>31-40 <input type="radio" name="Ålder" value="40+" required>40+
             <br>
-            Mail: <input type="text" name="Mail">
+            <label for="Mail">Mail:</label> <input type="text" name="Mail" required>
         </fieldset>
-           
+           <br>
            <button type="submit">Skicka formulär!</button>
           </form>
         
