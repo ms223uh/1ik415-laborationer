@@ -24,7 +24,7 @@ body
 
 #head
 {
-    width: 958;
+    width: 958px;
     height: 155px;
     background-color: #FFFFFF;
     border-radius: 8px;
@@ -123,8 +123,8 @@ body
     border-top: solid 2px #000000;
     text-align: center;
     vertical-align: middle;
-    line-height: 0px;
-    margin-top: 0px;
+    margin-top: -36px;
+    
 }
 
 
@@ -147,7 +147,7 @@ body
     border-top: solid 2px #000000;
     text-align: center;
     border-radius: 8px;
-    margin-top: -6px;
+    margin-top: -157px;
 }
 
 
@@ -159,6 +159,7 @@ p
 { 
     font-family: Verdana; font-size: 14px; color: #000000; 
     white-space: pre-line;
+    padding-top: 5px;
 }
 
 h2
@@ -172,16 +173,21 @@ h3
 }
 
 
-h9
+h4
 {
-   font-family: Verdana; font-size: 35px; color: #000000; text-decoration: bold;
-   text-align: center;
+   font-family: Verdana; font-size: 25px; color: #000000; text-decoration: bold;
+   text-align: center; 
+   margin-top: 0;
+   padding-top: 30px;
 }
 
-h10
+
+
+
+h5
 {
    font-family: Verdana; font-size: 15px; color: #5D5F60; text-decoration: bold;  
-text-align: center;
+
     
 }
 
